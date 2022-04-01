@@ -1,0 +1,390 @@
+body{
+    margin :0;
+    padding: 0;
+}
+#page{
+    font-family: Calibri !important;
+    
+}
+header{
+    width: 100%;
+    height: 70px;
+    background: #333333;
+    color: #fff;
+    
+}
+header #header{
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 70px;
+}
+.logo{
+    font-size: 48pt;
+    
+}  
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}  
+.list li{
+    padding: 0px 0px 0px 20px;
+    cursor: pointer;
+}
+
+.main-header{
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 60px;
+    color: #333;
+} 
+.list1{
+    list-style: none;
+    display: flex;
+    
+    font-size: 16px;
+}
+.main-header .list1 li{
+    
+    cursor: pointer;
+    margin-right: 20px;
+    flex-direction: row;
+    
+
+}
+.main-header .list1 li:hover{
+   text-decoration: underline;
+}
+.main-header #searchBox{
+    padding-right: 30px;
+}
+.main-header #searchBox input{
+    border: 1px solid #333;
+    width: 200px;
+    height: 40px;
+    color: #333;
+    padding: 5px;
+    box-sizing: border-box;
+    padding-left: 20px;
+
+}
+#image-banner{
+    background-color: lightgray;
+    height: 350px;
+}
+.image{
+    width: 80%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 350px;
+    
+}
+.image .title {
+    font-size: 48px;
+    color: #333333;
+    width: 60%;
+    text-transform: uppercase;
+    background: url(images/mask1.png) no-repeat center left;
+    box-sizing: border-box;
+    padding: 50px 0px 0px 270px;
+    height: 179px; 
+    background-size: 250px;
+    
+}
+.image .content {
+    width: 40%;
+
+    font-size: 18px;
+    color: #333333;
+    
+}
+.image .content li {
+    padding: 10px 0px 10px 0px;
+    list-style: none;
+}
+#offers{
+    width: 80%;
+    margin: 0px auto;
+    padding-right: 120px;
+}
+#offers ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+}
+#offers ul li{
+    list-style: none;
+    width: 33.3%;
+    padding: 20px 0px 20px 0px;
+}
+#offers ul li p{
+    border-right: 2px solid #eee;
+    padding-bottom: 20px;
+}
+#offers ul li p span{
+    font-size: 2em;
+    padding-left: 12px;
+    background: linear-gradient(to right,#30CFD0 0%,#330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#offers ul li p i{
+    position: absolute;
+    margin-top: 7px;
+}
+#offers ul li p.removeBorder{
+    border-right: 0px !important;
+}
+#offers ul li p + span{
+    font-size: 16px;
+
+}
+#deals{
+    width: 80%;
+    padding-left: 120px;
+}
+
+
+#deals h1{
+  font-size: 30pt;
+  
+  
+}
+#deals h1::first-letter{
+   font-weight: bold;
+   font-size: 1.5em;
+}
+.flex-container-img {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.flex-container-img img {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 120px;
+    height: 150px;
+}
+
+
+.flex-container-img div {
+    text-align: center;
+    font-size: 12pt;    
+    width: 120px;
+    padding-top: 15px;
+}
+#fashion{
+    width: 80%;
+    padding-left: 120px;
+}
+#fashion ::first-letter{
+    font-weight: bold;
+   font-size: 1.5em;
+}
+
+#fashion h1{
+    color:#333333 ;
+    font-size: 30pt;
+}
+#fashion ul {
+    padding-top: 15px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#fashion ul li img{
+    width: 150px;
+    height: 200px;
+}
+#fashion ul li{
+    width: 150px;
+    height: 240px;
+    background-color: #dbf3fa;
+    padding:3px 1px 25px 1px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+#brands{
+    margin: 40px 0 40px 0;
+    width: 80%;
+    padding-left: 120px;
+}
+#brands ul{
+    color: #333333;
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+#brands ul li{
+    border-right:1px solid #8a8484;
+    padding:0px 10px 0px 10px;
+    cursor: pointer;
+    margin: 5px 0 5px 0;
+}
+.footer{
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.footer .container{
+    display: flex;
+    padding-left: 120px;
+}
+
+.footer .container ul{
+    width: 25%;
+    padding-right: 30px;
+    margin-top:30px;   
+}
+.footer{
+    background-color: #333333;
+    color: #ffffff;
+}
+.footer .container{
+    display: flex;
+}
+
+.footer .container ul{
+    width: 25%;
+    padding-right: 30px;
+    margin-top:30px;   
+    padding-bottom: 70px;
+
+    list-style: none;
+}
+
+@media only screen and (min-width:481px) and (max-width : 768px) {
+    .main-header{
+        width: 100%;
+    }
+    .list {
+        list-style: block;
+        display: flex;
+        flex-direction: row;
+    }
+    .list1{
+        font-size: 13px;
+        width: 75%;
+    }
+    #searchBox{
+        width: 25%;
+    }
+    .image .title{
+        background-size: 150px;
+        padding: 50px 0px 0px 180px;
+        width: 56%;
+        font-size: 30px;
+    }
+    .content ul{
+        font-size: 11pt;
+    }
+
+    .flex-container-img {
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .flex-container-img li{
+        margin-bottom: 30px;
+    }
+
+    .flex-container-img div{
+        font-size: 18pt;
+    }
+    .flex-container-img img {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 150px;
+        height: 220px;
+    }
+    #deals, #fashion, #brands, .footer .container{padding-left: 60px;}
+
+    #fashion ul li {
+        width: 250px;
+        height: 450px;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+        font-size: 25pt;
+    }
+    #fashion ul li img {
+        width: 250px;
+        height: 370px;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (min-width : 769px) and (max-width:1024px){
+    .image .title{
+        font-size: 40px;
+    }
+    #deals, #fashion, #brands, .footer .container{padding-left: 90px;}
+}
+
+@media only screen and (max-width : 480px){
+    .list, .main-header, #searchBox{
+        display: none;
+    }
+    .topNav {
+        display: block;
+    }
+    #sliderMenu{
+        display: none;
+        width: 50%;
+        position: fixed;
+        right: 0;
+        background-color: #eee;
+        z-index: 1;
+        box-shadow: -5px 5px 5px rgba(000,000,000,0.2);
+    }
+    #sliderMenu ul, #sliderMenu h3{
+        list-style: none;
+        padding-left: 10px;
+        padding-bottom: 15px;
+    }
+    #sliderMenu ul:first-of-type {
+        border-bottom: 1px dotted red;
+        padding-top: 10px;
+    }
+    /* .content{
+        display: none;
+    } */
+    .logo {
+        font-size: 30pt;
+    }
+    
+#sliderMenu p {
+    font-size: 1.2em;
+    position: absolute;
+    right: 0;
+    margin: 5px 5px 0px 0px;
+    border: 1px solid red;
+    border-radius: 25px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}
+

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="eStore.css">
+    <title>eStore</title>
+    <script>
+         window.onload = function(){
+            const a = document.querySelector(".topNav a");
+            const close = document.getElementById("close");
+            a.onclick = function(){
+                document.getElementById("sliderMenu").style.display = 'block'
+               
+            }
+            close.onclick = function(){
+                document.getElementById("sliderMenu").style.display = 'none'
+            }
+         }
+     </script>
+</head>
+<body>
+    <div id="page">
+        
+    <header>
+        
+        <div id="header">
+            <div class="logo">eStore</div>
+            <nav class="topNav">
+                <a href="#">
+                  <svg width="30" height="26" id="icoOpen">
+                      <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+                      <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+                      <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+                  </svg>
+                </a>
+              </nav>
+            <ul class="list">
+                <li>My Account</li>
+                <li>Wish List</li>
+                <li>Shopping</li>
+                <li>Cart</li>
+                <li>CheckOut</li>
+            </ul>
+            
+        </div>
+    </header>
+    <div id="sliderMenu">
+        <p id="close">X</p>
+        <ul>
+            <li>My Account</li>
+            <li>Wish List</li>
+            <li>Shopping</li>
+            <li>Cart</li>
+            <li>Checkout</li>
+        </ul>
+        <h3>Fashion Catagory</h3>
+        <ul>
+            <li>Men</li>
+            <li>Women</li>
+            <li>Kids</li>
+            <li>Protective Wear</li>
+            <li>Footwear</li>
+            <li>Accessories</li>
+            <li>Friday Casuals</li>
+        </ul>
+    </div>
+    <div class="main-header">
+        <ul class="list1">
+            <li>Men</li>
+            <li>Women</li>
+            <li>Kids</li>
+            <li>Protective Wear</li>
+            <li>Footwear</li>
+            <li>Accessories</li>
+            <li>Friday Casual</li>
+        </ul>
+        <div id="searchBox">
+            <input type="text" name="searchBox" placeholder="Search Products & Brands">
+        </div>
+    
+    </div>
+    <div id="image-banner">
+        <div class="image">
+            <div class="title">
+                Stay Home, <br/> Stay Safe.
+            </div>
+            <div class="content">
+                <ul>
+                    <li>Contactless Deliveries</li>
+                    <li>All delivery staff trained in covid-19 <br/> preventive measures</li>
+                    <li>All Delivery and warehouse staff are equipped <br/>with medical-grade hand sanitizers</li>
+                    <li>All warehouses staff undergo daily mandatory <br/> thermal temperature scanning</li>
+                    <li>No deliveries in 'highly affected' areas</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div id="offers">
+        <ul>
+            <li><p>under <i>&#8377;</i><span>399</span> store</p> <span>+ explore</span></li>
+            <li><p>under <i>&#8377;</i><span>699</span> store</p> <span>+ explore</span></li>
+            <li><p class="removeBorder">under <i>&#8377;</i><span>999</span> store</p> <span>+ explore</span></li>
+            <li><p>flat <span>60%</span> off</p><span> + explore</span></li>
+            <li><p>flat <span>50%</span> off</p><span> + explore</span></li>
+            <li><p>flat <span>40%</span> off</p><span> + explore</span></li>
+        </ul>
+
+    </div>
+    
+    <div id="deals">
+        <h1>Deals of the day</h1>
+        <ul class="flex-container-img">
+           
+          
+            <li class="img"><img src="images/sports.png"><div>Sports & Fitness Gear Upto 80% off</div></li>
+            <li class="img"><img src="images/jeans.png"><div>Branded Jeans Upto 50% off</div></li>
+            <li class="img"><img src="images/tshirt.png"><div>Branded T-Shirts Upto 60% off</div></li>
+            <li class="img"><img src="images/sports1.png"><div>Sports & Fitness Gear Upto 50% off</div></li>
+            <li class="img"><img src="images/kids tshirt.png"><div>Branded Kids T-Shirts Upto 40% off</div></li>
+            <li class="img"><img src="images/girl tshirt.png"><div>Sports Girls T-Shirts Upto 50% off</div></li>
+         </ul>
+    </div>
+    <div id="fashion">
+        <h1>Fashion Categories</h1>
+            <ul>
+                <li><img src="images/kurtas.png" alt="kurtas"><span>Kurtas</span></li>
+                <li><img src="images/formal shirt.png" alt="shirts"><span>Shirts</span></li>
+                <li><img src="images/pants.png" alt="pants"><span>Pants</span></li>
+                <li><img src="images/tops.png" alt="tops"><span>Tops</span></li>
+            </ul>
+            <ul>
+                <li><img src="images/tshirts1.png" alt="t-shirt"><span>T-shirt</span></li>
+                <li><img src="images/jeans1.png" alt="jeans"><span>Jeans</span></li>
+                <li><img src="images/shoes.png" alt="shoes"><span>Shoes</span></li>
+                <li><img src="images/casual shirt.png" alt="casual-shirts"><span>Casual Shirts</span></li>
+            </ul>
+
+        </div>
+
+        <div id="brands">
+
+            <ul>
+                <li>Adidas</li>
+                <li>Arrow</li>
+                <li>Fila</li>
+                <li>Online Shopping</li>
+                <li>Nike</li>
+                <li>Pepe Jeans</li>
+                <li>Puma</li>
+                <li>United Colors of Benetton</li>
+                <li>Fastrack</li>
+                <li>Shorts</li>
+                <li>Being Human</li>
+                <li>Skirts</li>
+                <li>Woodland Supra Dresses Clothing</li>
+                <li>Jewellery</li>
+                <li>T-shirts</li>
+                <li>Shoes</li>
+                <li>Bags</li>
+                <li>Watches</li>
+                <li>Caps</li>
+                <li>Shirts</li>
+                <li>Backpacks</li>
+                <li>Flip flops</li>
+                <li>Sunglasses</li>
+                <li>Kurtas</li>
+                <li>Jackets</li>
+                <li>Sketcher Sarees</li>
+                <li>Sandals</li>
+                <li>Puma t-shirts</li>
+                <li>Woodland Shoes</li>
+                <li>Titan Watches</li>
+                <li>Fastrack Watches</li>
+                <li>Wrangler Shirts</li>
+                <li>Adidas T-shirts</li>
+                <li>Nike Shoes</li>
+                <li>Roadster Shirts</li>
+                <li>Casual Shoes</li>
+                <li>Running Shoes</li>
+                <li>NIke Sports Shoes</li>
+                <li>Jeans</li>
+                <li>Being Human</li>
+                <li>T-shirts</li>
+                <li>Converse Shoes</li>
+                <li>Cricket Shoes</li>
+            </ul>
+             
+        </div>
+        <div class="footer">
+            <div class="container">
+              <ul class="Account">
+                  <h3>MY ACCOUNT</h3>
+                 <li>Orders</li>
+                 <li>Returns / Refunds</li>
+                 <li>Track Order</li>
+                 <li>Frequently Asked Questions</li>
+                 
+              </ul>
+      
+              <ul class="policies">
+                  <h3>POLICIES</h3>
+                 <li>Payment Options</li>
+                 <li>Terms & Conditions of Use</li>
+                 <li>Terms & Conditions of Membership Program</li>
+                 <li>Offer Terms & Conditions</li>
+                 <li>Returns & Exchange Policy</li>
+                 <li>Shipping Policy</li>
+                 <li>Privacy Policy</li>
+                 <li>Safety Checklist</li>
+                 
+              </ul>
+      
+              <ul class="contact-us">
+                  <h3>CONTACT US</h3>
+                 <li>Customer Support</li>
+                 <li>Store Location</li>
+                 <li>Help Center</li>
+      
+                 <h3>ABOUT US</h3>
+                 <li>Official Brand Store</li>
+                 <li>About Us</li>
+                 <li>Careers</li>
+                 
+              </ul>
+      
+              <ul class="social">
+                  <h3>SOCIAL</h3>
+                 <li>Facebook</li>
+                 <li>Twitter</li>
+                 <li>Youtube</li>
+              </ul>
+              
+            </div>
+          </div>
+      
+                 
+      
+      
+    </div>
+
+    
+</body>
+</html>
